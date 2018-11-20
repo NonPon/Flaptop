@@ -34,4 +34,9 @@ public class Obstacle : MonoBehaviour {
            //gameObject.SetActive(false);
         }
     }
+
+    public void SetSpeed(float modifier)
+    {
+        speed = 5.0f + modifier;
+    }
 }

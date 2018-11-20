@@ -32,5 +32,11 @@ public class Spawner : MonoBehaviour {
         {
             timeBtwSpawn -= Time.deltaTime;
         }
-	}
+
+    }
+
+    //public void SetSpeed(float modifier)
+    //{
+    //    speed = 5.0f + modifier;
+   // }
 }

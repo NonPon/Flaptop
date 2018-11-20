@@ -36,7 +36,7 @@ public class ScoreManager : MonoBehaviour {
         scoreToNextLevel *= 2;
         difficultyLevel++;
 
-        GetComponent<Player>().SetSpeed (difficultyLevel);
+        GetComponent<Obstacle>().SetSpeed (difficultyLevel);
 
         Debug.Log(difficultyLevel);
     }

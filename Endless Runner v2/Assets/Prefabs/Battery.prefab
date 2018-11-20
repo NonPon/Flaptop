@@ -121,6 +121,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0
-  speed: 5
+  speed: 1
   increaseSpeed: 0.5
   effect: {fileID: 1854179966314126, guid: 8f07a552fd7bf50468dd0fe990500f7e, type: 2}

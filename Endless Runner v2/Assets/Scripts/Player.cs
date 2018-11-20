@@ -81,10 +81,10 @@ public class Player : MonoBehaviour {
 
     }
 
-    public void SetSpeed(float modifier)
-    {
-        speed = 5.0f + modifier;
-    }
+    //public void SetSpeed(float modifier)
+    //{
+    //    speed = 5.0f + modifier;
+    //}
 
     public void TakeDamage(float damage)
     {
